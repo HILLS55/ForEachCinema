@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: "Uniform.ttf";
+    src: url(./starter_exo_fin_module_3/assets/fonts/Uniform.ttf);
+}
+
+header {
+    background-color: #186cb0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: "Uniform.ttf";
+}
+
+.titre h1 {
+    margin: 0;
+    margin-left: 30px;
+    font-size: 16px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li a img {
+    position: relative;
+    bottom: 20px;
+    right: 60px;
+    width: 20px; 
+    height: 20px; 
+    padding-bottom: 5px;
+}
